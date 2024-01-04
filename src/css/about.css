@@ -1,0 +1,115 @@
+.conteiner {
+    background-color: #0E1823;
+}
+
+.about {
+    border-radius: 24px;
+    background: #FBFBFB;
+}
+
+.about-content {
+    padding: 40px 20px;
+    text-align: start;
+}
+
+.about-title {
+    color: #1B414B;
+    font-size: 28px;
+    padding-bottom: 40px;
+}
+
+.about-text-1 {
+    color: #1B414B;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.about-text-2 {
+    color: #040306;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+.about-blok-img {
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    background-color: #0E1823;
+    border: 2px;
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+    .about-content {
+        padding: 50px 136px 77px 32px;
+
+    }
+
+    .about-title {
+        font-size: 48px;
+        padding-bottom: 50px;
+    }
+
+    .about-text-1 {
+        width: 389px;
+        font-size: 23px;
+        padding-bottom: 20px;
+    }
+
+    .about-text-2 {
+        font-size: 13px;
+        width: 385px;
+    }
+
+
+}
+
+/* laptop1 */
+
+@media screen and (min-width: 1280px) {
+    .about-content {
+        padding: 50px 50px 100px 50px;
+        display: flex;
+        gap: 189px;
+    }
+
+
+    .about-title {
+        padding-bottom: 50px;
+
+    }
+
+
+    .about-text-1 {
+        width: 354px;
+    }
+
+    .about-text-2 {
+        width: 354px;
+    }
+
+
+}
+
+/* laptop2 */
+@media screen and (min-width: 1440px) {
+    .about-content {
+        padding: 50px 50px 100px 50px;
+        display: flex;
+        gap: 229px;
+    }
+
+    .about-text-1 {
+        width: 404px;
+    }
+
+    .about-text-2 {
+        width: 404px;
+    }
+
+
+
+}

@@ -1,9 +1,79 @@
 body {
     font-family: 'Inter', sans-serif;
+    color: #FBFBFB;
+    font-style: normal;
+    letter-spacing: -0.02em;
+    line-height: 1;
+    font-weight: 500;
 }
 
-conteiner {
-    width: 100%;
+.conteiner {
+    min-width: 320px;
+    max-width: 375px;
     padding-left: 20px;
     padding-right: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 24px;
+    width: 100%;
+}
+
+.tablet,
+.laptop1,
+.laptop2 {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .conteiner {
+        max-width: 768px;
+        padding-left: 32px;
+        padding-right: 32px;
+    }
+
+    .mobile,
+    .laptop1,
+    .laptop2 {
+        display: none;
+    }
+
+    .tablet {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .conteiner {
+        max-width: 1280px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .mobile,
+    .tablet,
+    .laptop2 {
+        display: none;
+    }
+
+    .laptop1 {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .conteiner {
+        max-width: 1440px;
+    }
+
+    .mobile,
+    .tablet,
+    .laptop1 {
+        display: none;
+    }
+
+    .laptop2 {
+        display: block;
+    }
 }
