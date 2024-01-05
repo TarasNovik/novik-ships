@@ -19,6 +19,7 @@
 }
 
 .rent-form-input {
+    height: 54px;
     background-color: #0E1823;
     padding: 14px 18px 14px 18px;
     border-radius: 12px;
@@ -82,6 +83,11 @@
         height: 116px;
     }
 
+    .rent-submit-buttom {
+        width: 194px;
+        height: 56px;
+        font-size: 18px;
+    }
 }
 
 @media screen and (min-width: 1280px) {
@@ -89,17 +95,25 @@
         display: flex;
         flex-direction: row-reverse;
         gap: 50px;
-        padding-top: 150px;
+        padding-top: 130px;
         padding-bottom: 150px;
-        height: 834px;
     }
 
     .rent {
         padding: 0;
-
         width: 472px;
-        height: 332px;
     }
+
+    .rent-form {
+        padding-bottom: 50px;
+    }
+
+
 }
 
-@media screen and (min-width: 1440px) {}
+
+@media screen and (min-width: 1440px) {
+    .rent-section {
+        justify-content: start;
+    }
+}
