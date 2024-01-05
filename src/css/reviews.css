@@ -9,6 +9,11 @@
     font-size: 12px;
     font-weight: 400;
     line-height: 1.15;
+    opacity: 0.4;
+}
+
+.reviews-card-list {
+    padding-bottom: 80px;
 }
 
 .reviews-card {
@@ -16,12 +21,11 @@
     padding: 32px 8px;
     flex-direction: column;
     align-items: center;
-    flex-shrink: 0;
     border-radius: 24px;
     background: #FBFBFB;
 }
 
-.johnfoto {
+.reviews-foto {
     width: 56px;
     height: 56px;
     border-radius: 50%;
@@ -41,5 +45,74 @@
     font-weight: 400;
     line-height: 1.4;
     padding-left: 8px;
-    padding-right: 8px;
+    padding-right: 8pxnp;
+}
+
+.vika,
+.ihor {
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .reviews-title {
+        font-size: 47px;
+        padding-top: 150px;
+        font-weight: 500;
+    }
+
+    .reviews-text {
+        font-size: 14px;
+        padding-bottom: 75px;
+        width: 571px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .vika {
+        display: flex;
+    }
+
+    .reviews-card-list {
+        display: flex;
+        gap: 32px;
+        padding-bottom: 150px;
+    }
+
+    .reviews-card {
+        width: 336px;
+        height: 282px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .ihor {
+        display: flex;
+    }
+
+    .reviews-card-list {
+        gap: 26px;
+    }
+
+    .reviews-card {
+        width: 376px;
+    }
+
+    .reviews-title {
+        font-size: 48px;
+        width: 854px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .reviews-card {
+        width: 392px;
+    }
+
+    .reviews-card-list {
+        gap: 32px;
+        justify-content: center;
+    }
 }

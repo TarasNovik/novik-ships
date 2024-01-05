@@ -1,0 +1,10 @@
+.footer {
+    border-radius: 24px 24px 0px 0px;
+    background: #1B414B;
+    padding: 40px 30px 20px 30px;
+}
+
+.footer-logo {
+    font-size: 14px;
+    letter-spacing: -0.03em;
+}
