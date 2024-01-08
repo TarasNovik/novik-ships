@@ -17,8 +17,8 @@
 <symbol id="icon-burger" viewBox="0 0 32 32">
 <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.8571" d="M4 20h24M4 12h24"></path>
 </symbol>
-<symbol id="icon-ion_close-sharp" viewBox="0 0 32 32">
-<path fill="#055545" style="fill: var(--color5, #055545)" d="M25.143 8.983l-2.126-2.126-7.016 7.016-7.016-7.016-2.126 2.126 7.016 7.017-7.016 7.016 2.126 2.126 7.017-7.016 7.016 7.016 2.126-2.126-7.016-7.016 7.016-7.017z"></path>
+<symbol id="icon-close" viewBox="0 0 32 32">
+<path  d="M25.143 8.983l-2.126-2.126-7.016 7.016-7.016-7.016-2.126 2.126 7.016 7.017-7.016 7.016 2.126 2.126 7.017-7.016 7.016 7.016 2.126-2.126-7.016-7.016 7.016-7.017z"></path>
 </symbol>
 </defs>
 </svg>
