@@ -36,7 +36,7 @@
 
     }
 
-    .header-logo {
+    .window-logo {
         color: #1B414B;
         font-size: 14px;
         letter-spacing: -0.03em;
@@ -66,5 +66,10 @@
         justify-content: center;
         align-items: center;
         display: flex;
+    }
+
+    .window-navigation-item:hover {
+        background: #FBFBFB;
+        color: #1B414B;
     }
 }
