@@ -81,6 +81,11 @@
     display: flex;
   }
 
+  .header-navigation-item:hover {
+    background: #fbfbfb;
+    color: #1B414B;
+  }
+
   .header-social-list {
     display: flex;
     gap: 8px;

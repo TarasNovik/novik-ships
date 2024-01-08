@@ -50,6 +50,11 @@
     padding-top: 80px;
 }
 
+.footer-navigation-item:hover {
+    background: #fbfbfb;
+    color: #1B414B;
+}
+
 .footer-haslo {
     font-size: 18px;
     font-weight: 400;

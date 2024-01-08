@@ -97,6 +97,11 @@
     margin-top: 40px;
 }
 
+.our-a:hover {
+    background: #FBFBFB;
+    color: #1B414B;
+}
+
 @media screen and (min-width: 768px) {
     .ouryachts-card-2 {
         display: block;

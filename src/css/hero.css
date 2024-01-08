@@ -41,7 +41,7 @@
 }
 
 
-.hero-a:focus {
+.hero-a:hover {
     background: #FBFBFB;
     color: #1B414B;
 }
