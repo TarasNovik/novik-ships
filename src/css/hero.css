@@ -46,6 +46,15 @@
     color: #1B414B;
 }
 
+@media screen and(min-resolution: 192dpi) and (max-width: 767px),
+screen and(min-resolution: 2dppx) and (max-width: 767px),
+screen and(min-device-pixel-raito: 2) and (max-width: 767px) {
+    .hero {
+        background-image:
+            url(../img/hero-mobile@2x.jpg);
+    }
+}
+
 /* tablet */
 @media screen and (min-width: 768px) {
 
@@ -80,6 +89,15 @@
     }
 }
 
+@media screen and(min-resolution: 192dpi) and (max-width: 1279px),
+screen and(min-resolution: 2dppx) and (max-width: 1279px),
+screen and(min-device-pixel-raito: 2) and (max-width: 1279px) {
+    .hero {
+        background-image:
+            url(../img/hero-tablet@2x.jpg);
+    }
+}
+
 /* laptop1 */
 
 @media screen and (min-width: 1280px) {
@@ -94,6 +112,15 @@
 
     .hero-title {
         font-size: 80px;
+    }
+}
+
+@media screen and(min-resolution: 192dpi) and (max-width: 1439px),
+screen and(min-resolution: 2dppx) and (max-width: 1439px),
+screen and(min-device-pixel-raito: 2) and (max-width: 1439px) {
+    .hero {
+        background-image:
+            url(../img/hero-laptop1@2x.jpg);
     }
 }
 
@@ -120,32 +147,5 @@ screen and(min-device-pixel-raito: 2) and (min-width: 1440px) {
     .hero {
         background-image:
             url(../img/hero-laptop2@2x.jpg);
-    }
-}
-
-@media screen and(min-resolution: 192dpi) and (min-width: 1280px),
-screen and(min-resolution: 2dppx) and (min-width: 1280px),
-screen and(min-device-pixel-raito: 2) and (min-width: 1280px) {
-    .hero {
-        background-image:
-            url(../img/hero-laptop1@2x.jpg);
-    }
-}
-
-@media screen and(min-resolution: 192dpi) and (min-width: 768px),
-screen and(min-resolution: 2dppx) and (min-width: 768px),
-screen and(min-device-pixel-raito: 2) and (min-width: 768px) {
-    .hero {
-        background-image:
-            url(../img/hero-tablet@2x.jpg);
-    }
-}
-
-@media screen and(min-resolution: 192dpi) and (max-width: 767px),
-screen and(min-resolution: 2dppx) and (max-width: 767px),
-screen and(min-device-pixel-raito: 2) and (max-width: 767px) {
-    .hero {
-        background-image:
-            url(../img/hero-mobile@2x.jpg);
     }
 }
