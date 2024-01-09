@@ -21,27 +21,11 @@ img {
     width: 100%;
 }
 
-.tablet,
-.laptop1,
-.laptop2 {
-    display: none;
-}
-
 @media screen and (min-width: 768px) {
     .conteiner {
         max-width: 768px;
         padding-left: 32px;
         padding-right: 32px;
-    }
-
-    .mobile,
-    .laptop1,
-    .laptop2 {
-        display: none;
-    }
-
-    .tablet {
-        display: block;
     }
 }
 
@@ -51,30 +35,10 @@ img {
         padding-left: 50px;
         padding-right: 50px;
     }
-
-    .mobile,
-    .tablet,
-    .laptop2 {
-        display: none;
-    }
-
-    .laptop1 {
-        display: block;
-    }
 }
 
 @media screen and (min-width: 1440px) {
     .conteiner {
         max-width: 1440px;
-    }
-
-    .mobile,
-    .tablet,
-    .laptop1 {
-        display: none;
-    }
-
-    .laptop2 {
-        display: block;
     }
 }
