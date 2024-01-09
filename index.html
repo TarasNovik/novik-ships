@@ -93,14 +93,17 @@
             </div>
         </div>
         <div class="about-blok-img">
-            <img class="mobile" srcset="/novik-ships/assets/about-mobile@2x-60f1ee45.jpg 2x" src="/novik-ships/assets/about-mobile-6893a07c.jpg"
-                alt="yacht">
-            <img class="tablet" srcset="/novik-ships/assets/about-tablet@2x-e258ac12.jpg 2x" src="/novik-ships/assets/about-tablet-15f6d511.jpg"
-                alt="yacht">
-            <img class="laptop1" srcset="/novik-ships/assets/about-laptop1@2x-424cafd6.jpg 2x" src="/novik-ships/assets/about-laptop1-1871023f.jpg"
-                alt="yacht">
-            <img class="laptop2" srcset="/novik-ships/assets/about-laptop2@2x-cce28e3f.jpg 2x" src="/novik-ships/assets/about-laptop2-d0b1af4e.jpg"
-                alt="yacht">
+            <picture>
+                <source srcset="/novik-ships/assets/about-laptop2-d0b1af4e.jpg 1x, /novik-ships/assets/about-laptop2@2x-cce28e3f.jpg 2x"
+                    media="(min-width: 1440px)" />
+                <source srcset="/novik-ships/assets/about-laptop1-1871023f.jpg 1x, /novik-ships/assets/about-laptop1@2x-424cafd6.jpg 2x"
+                    media="(min-width: 1280px)" />
+                <source srcset="/novik-ships/assets/about-tablet-15f6d511.jpg 1x, /novik-ships/assets/about-tablet@2x-e258ac12.jpg 2x"
+                    media="(min-width: 768px)" />
+                <source srcset="/novik-ships/assets/about-mobile-6893a07c.jpg 1x, /novik-ships/assets/about-mobile@2x-60f1ee45.jpg 2x"
+                    media="(max-width: 767px)" />
+                <img src="/novik-ships/assets/about-laptop2-d0b1af4e.jpg" alt="yacht">
+            </picture>
         </div>
     </div>
 
